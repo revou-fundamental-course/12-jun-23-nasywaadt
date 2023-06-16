@@ -1,0 +1,66 @@
+/* MARK DEFAULT */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #F1C376;
+    color: black;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    background-color: #F1C376;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #884A39;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #551c0c;
+}
+/*  MARK ID*/
+
+#inputField {
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid gray;
+    padding: 10px;
+}
+
+#inputField:focus {
+    border: solid black;
+}
+
+/* MARK ID */
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
