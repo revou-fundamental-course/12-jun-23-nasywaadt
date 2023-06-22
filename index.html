@@ -8,16 +8,41 @@
 </head>
 <body>
     <header>
-       <h1>Temperatur Conversion</h1> 
+       <h2>Temperatur Conversion</h2> 
     </header>
-    <section class="inputSection">
-        <label for="inputField">Celcius</label>
-        <input type="number" id="inputField" />
+    <section style="text-align: center;"> 
+        <h4>Masukkan suhu derajat Celsius (°C) ke kotak dibawah, 
+            lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</h4>
+    </section>
+    <section class="inputs">
+        <label for="celcius">Celcius (°C):</label>
+        <input type="number" id="celcius" placeholder="Celcius" name="c" value=""/>
         <div class="InputButtonSection">
-            <button>Conversion</button>
-            <button>Reset</button>
-            <button>Reverse</button>
+            <button id="konversi" onclick="tempConvert()"><b>Conversion</b></button>
+            <button id="clear" onclick="clearForm()"><b>Reset</b></button>
+        </div>
+        <label for="fahrenheit">Fahrenheit (°F):</label>
+        <input type="number" id="fahrenheit" placeholder="Fahrenheit" name="f" value=""/><br>
+        <p style="margin-top: -30px;"><h4><b>Cara Kalkulasi:</b></h4></p>
+        <div class="explain" >
+           <h3><span id="input"></span>°C x 9/5 + 32 = <span id="hasil"></span>°F</h3>
         </div>
     </section>
+    <section class="Explanation">
+        <h2 style="text-align: center;">Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</h2>
+        <p>
+           <h4>Suhu <span class="S">S</span> dalam derajat Fahrenheit (°F) sama dengan 
+            suhu <span class="S">S</span> dalam derajat Celsius (°C) kali 9/5 tambah 32.</h4>
+        </p>
+        <p>
+            <h4><span class="S">S<span class="suhu">(°F)</span> = (S<span class="suhu">(°C)</span> x 9/5) + 32</span></h4>
+            <h5>atau</h5>
+            <h4><span class="S">S<span class="suhu">(°F)</span> = (S<span class="suhu">(°C)</span> x 1.8) + 32</span></h4>
+        </p>
+    </section>
+    <footer style="text-align: center;">
+        <h5>Tugas RevoU Fundamental Course Software Engineering </h5>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>
