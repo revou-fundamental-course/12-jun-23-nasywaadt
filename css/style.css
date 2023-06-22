@@ -1,0 +1,107 @@
+/* MARK DEFAULT */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #84A7A1;
+}
+
+header {
+    background-color: #f13928;
+    color: #F6FA70;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    background-color: #ec675b;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f04131;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #f13928;
+}
+/*  MARK ID*/
+
+#celcius {
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid #f1594c;
+    padding: 10px;
+}
+
+#celcius:focus {
+    border: solid #8d1a10;
+}
+
+#fahrenheit {
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid gray;
+    padding: 10px;
+}
+
+#fahrenheit:focus {
+    border: solid #0E2954;
+}
+
+
+
+
+/* MARK CLASS */
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.explain {
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid black;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.Explanation {
+    background-color: #F6FA70;
+    border: solid #8f6d11;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.S {
+    font-size: 25px;
+}
+
+.suhu {
+    font-size: 15px;
+}
